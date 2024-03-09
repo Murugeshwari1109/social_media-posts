@@ -1,0 +1,118 @@
+/* About.module.css */
+
+.About {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #3498db; /* Blue border color */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* White background */
+  }
+  
+  .About:hover {
+    transform: scale(1.01); /* Enlarge on hover */
+  }
+  
+  .About h2 {
+    color: #3498db; /* Blue heading color */
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    font-style: oblique;
+  }
+  
+  .About h3 {
+    color: #2ecc71; /* Green heading color */
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+    font-style: oblique;
+  }
+  
+  .About h5 {
+    color: #6f3ce7a2; /* Red heading color */
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    font-style: oblique;
+  }
+  
+  .About p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 0.5rem;
+  }
+  
+  .About ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .About li {
+    margin-top: 1.5rem;
+  }
+  
+  /* Button styles for emphasis */
+  .About button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #3498db; /* Blue button color */
+    color: #fff; /* White button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Smooth color transition */
+  }
+  
+  .About button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+
+.DeveloperInfo {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .DeveloperInfo .namespan {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #e73cb1; /* Red color for the name */
+    font-weight: bold;
+    font-style: italic;
+    transition: color 0.3s ease-in-out; /* Smooth color and text-decoration transition */
+  }
+  
+  .DeveloperInfo .aboutme{
+    font-size: 1.7rem;
+  color: #df4646ec;
+  margin-bottom: 1rem;
+  font-family:cursive;
+  }
+  .DeveloperInfo p {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .SocialIcons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .SocialIcons a {
+    margin: 0 10px;
+    display: block;
+    transition: transform 0.3s ease-in-out; /* Smooth transform transition */
+  }
+  
+  .SocialIcons img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  .SocialIcons a:hover img {
+    transform: scale(1.2); /* Enlarge on hover */
+  }
+  
+  
+  
+  

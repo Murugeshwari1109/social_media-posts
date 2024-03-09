@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": "5",
+      "title": "Third",
+      "date": "March 07, 2024 4:29:46 PM",
+      "body": "This is my third post\n"
+    },
+    {
+      "id": "6",
+      "title": "New",
+      "date": "March 08, 2024 12:35:51 PM",
+      "body": "This is my first post today. Have a happy day"
+    },
+    {
+      "id": "7",
+      "title": "Final",
+      "date": "March 08, 2024 10:16:21 PM",
+      "body": "I am yet to complete the react.js tutorial"
+    }
+  ]
+}
