@@ -101,7 +101,6 @@ body {
 .Nav li {
   padding: 1rem;
 }
-
 .Nav li:hover, 
 .Nav li:focus {
   padding: 1rem;
@@ -215,11 +214,7 @@ body {
   cursor: pointer;
 }
 
-.editButton {
-  background-color: rgba(12, 6, 100, 0.945);
-  color:white;
-  width: 80px;
-}
+
 
 .statusMsg {
   margin-top: 2rem;
@@ -274,5 +269,47 @@ body {
     font-size: 3rem;
   }
 
+  .editButton {
+    background-color: rgba(12, 6, 100, 0.945);
+    color:white;
+    width: 80px;
+  }
+
+}
+@media only screen and (min-width: 760px) {
+  .editButton ,.deleteButton{
+    background-color: rgba(12, 6, 100, 0.945);
+    color:white;
+    width: 80px;
+   
+  }
+  .deleteButton{
+    background-color: black;
+    color:white;
+    width: 80px;
+  }
+
+}
+
+
+@media only screen and (min-width: 320px )and (max-width:450px) {
+
+  .editButton,
+  .deleteButton {
+    height: 35px !important;
+  }
+  .editButton {
+    background-color: rgba(12, 6, 100, 0.945);
+    color:white;
+    width: 55px;
+    
+  }
+  .deleteButton{
+    background-color: black;
+    color:white;
+    width: 55px;
+   
+  }
+ 
 }
 

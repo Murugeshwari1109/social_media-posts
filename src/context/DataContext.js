@@ -75,7 +75,6 @@ export const DataProvider = ({ children }) => {
     // Update local storage after deleting a post
     localStorage.setItem('posts', JSON.stringify(updatedPosts));
   };
-
   const handleEdit = (id) => {
     const editTime = format(new Date(), 'MMMM dd, yyyy pp');
     const updatedPosts = posts.map((post) =>
@@ -90,6 +89,8 @@ export const DataProvider = ({ children }) => {
     localStorage.setItem('posts', JSON.stringify(updatedPosts));
   };
 
+  
+  
   const contextValue = {
     posts,
     width,
